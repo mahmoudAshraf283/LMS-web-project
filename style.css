@@ -46,9 +46,63 @@ nav{
     background-color: #334155;
 }
 
+.panner{
+    height: 100vh;
+}
+
+.panner h1{
+    font-weight: bold;
+    color: #0F172A;
+    padding-top: 25%;
+}
+
+.panner p{
+    color: #334155;
+}
+
+.info{
+    background-color: #F8FAFC;
+    height: max(100%,149px);
+    padding:40px 0;
+    margin: 60px 0;
+}
+
+.info h2 , .info p{
+    color: #0F172A;
+}
+
+.info p{
+font-size: 14px;
+}
+
+.head {
+    margin-bottom: 24px;
+}
+
+.categories img{
+    width: 100px;
+    min-height: 100px;
+}
+
+.cards{
+    margin-bottom: 60px;
+}
 
 
+.categories h4 , .courses h4 , .courses h5{
+    color: #0F172A;
+}
 
+.categories p , .courses p{
+    color: #334155;
+}
+ .card .d-flex img{
+    height: 20px;
+ }
+
+ .courses h4{
+    font-weight: bold;
+ }
 
 footer{
     background-color: #1E293B;
