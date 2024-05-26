@@ -1,0 +1,25 @@
+.main{
+    color: #0F172A;
+}
+.main h2{
+    margin-bottom: 24px;
+}
+.main input{
+    color: #94A3B8;
+    height: 58px;
+    margin-bottom: 24px;
+}
+
+.main button {
+    width: 124px;
+    height: 48px;
+}
+
+.main .signin{
+    width: 100%;
+    margin: 24px 0;
+}
+
+.main .signupbtn{
+    width: 183px;
+}
