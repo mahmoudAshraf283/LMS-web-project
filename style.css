@@ -89,20 +89,64 @@ font-size: 14px;
 }
 
 
-.categories h4 , .courses h4 , .courses h5{
+.categories h4 , .courses h4 , .courses h5 ,.instructors h5{
     color: #0F172A;
 }
 
-.categories p , .courses p{
+.categories p , .courses p ,.instructors p{
     color: #334155;
 }
- .card .d-flex img{
+ .card .d-flex img { 
     height: 20px;
+    padding-top: 5px;
  }
 
  .courses h4{
     font-weight: bold;
  }
+
+.feedback{
+    background-color: #F8FAFC;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+} 
+
+.feedback .card {
+    margin: 15px;
+}
+
+.feedback .carousel-control-prev-icon,
+.feedback .carousel-control-next-icon {
+    background-color: black;
+}
+.feedback .carousel-controls {
+    position: absolute;
+    top: -35px;
+    right: 50px;
+    z-index: 1000;
+}
+.feedback .carousel-controls button {
+    background-color: #94A3B8;
+    border: none;
+    margin-inline: 20px;
+    color: white;
+    cursor: pointer;
+    width: 56px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.apply{
+    margin-bottom: 60px;
+}
+
+.apply p{
+    color: #1D2939;
+}
+
+
 
 footer{
     background-color: #1E293B;
